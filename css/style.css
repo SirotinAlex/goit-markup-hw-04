@@ -319,7 +319,7 @@ color: var(--secondary-text-color)
 }
 
 .thumb{
-    padding: 30px 60px;
+    padding: 30px 32px;
     text-align: center;
 }
 
@@ -332,11 +332,12 @@ color: var(--secondary-text-color)
 .team-soc-item {
     width: 44px;
     height: 44px;
+    margin-top: 16px;
 }
 
 .team-soc-item + .team-soc-item {
     margin-left: 10px;
-    margin-top: 16px;
+
 }
 
 .team-soc-link {

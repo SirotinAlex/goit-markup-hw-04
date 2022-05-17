@@ -160,8 +160,9 @@ align-items: center;
 }
 
 .header .container {
-display: flex;
-align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 
 /* емейл,телефон */
@@ -175,6 +176,11 @@ color: var(--primary-text-color);
 .header-item .list {
     padding: 0px;
     margin-left: 0px;
+}
+
+.header-mail-icon {
+    display: flex;
+    align-items: center;
 }
 
 /* button hero*/

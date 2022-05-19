@@ -120,9 +120,9 @@ font-weight: 700;
 
 .nav-link,
 .contact-link {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
 
 font-weight: 500;
 line-height: 1.14;
@@ -135,7 +135,7 @@ color: var(--secondary-text-color);
 .contact-link:hover,
 .contact-link:focus,
 .current {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 
 
@@ -510,9 +510,7 @@ padding: 0px;
 
 .footer-title {
     color: #ffffff;
-    margin-right: 100px;
     margin-bottom: 20px;
-    display: flex;
     justify-content:center;
     font-family: 'Roboto';
     font-style: normal;
@@ -528,6 +526,7 @@ padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .footer-soc-item {
@@ -627,9 +626,13 @@ img{
     margin-bottom: 30px;
     width: 370px;
     width: calc((100% - 90px) / 3);
-
     background-color: #ffffff;
     
+    }
+
+.card-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
     }
 
     .thumbs {
